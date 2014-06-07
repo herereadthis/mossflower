@@ -1,0 +1,38 @@
+{
+  "name": "mossflower",
+  "version": "0.0.0",
+  "description": "Mossflower is a global reset CSS utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herereadthis/mossflower.git"
+  },
+  "keywords": [
+    "reset",
+    "css",
+    "less"
+  ],
+  "author": {
+    "name": "Jimmy Ha",
+    "email": "herereadthis@gmail.com",
+    "url": "http://herereadthis.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/herereadthis/mossflower/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/herereadthis/mossflower/issues"
+  },
+  "homepage": "https://github.com/herereadthis/mossflower",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^0.11.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
