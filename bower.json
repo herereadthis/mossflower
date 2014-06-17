@@ -1,0 +1,23 @@
+{
+  "name": "mossflower",
+  "version": "0.1.0",
+  "authors": [
+    "Jimmy Ha <herereadthis@gmail.com>"
+  ],
+  "description": "Global reset CSS utility for both LESS and SASS",
+  "homepage": "http://herereadthis.com/code/mossflower",
+  "main": [
+    "src/less/main.less",
+    "src/css/main.less-minified.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    ".sass-cache",
+    "docs",
+    "Gruntfile.js",
+    "node_modules",
+    "src/components"
+  ]
+}

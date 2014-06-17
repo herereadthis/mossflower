@@ -1,8 +1,7 @@
 {
   "name": "mossflower",
-  "version": "0.0.0",
-  "description": "Mossflower is a global reset CSS utility",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Mossflower is a global reset CSS utility for both LESS and SASS",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
