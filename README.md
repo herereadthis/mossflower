@@ -1,7 +1,7 @@
 Mossflower
 ==========
 
-[![Bower version](https://badge.fury.io/bo/bellmaker.svg)](http://badge.fury.io/bo/bellmaker)
+[![Bower version](https://badge.fury.io/bo/mossflower.svg)](http://badge.fury.io/bo/mossflower)
 
 Mossflower is a global reset CSS utility for both LESS and SASS
 
