@@ -27,19 +27,45 @@ module.exports = function(grunt) {
                 }
             }
         },
+        sass: {
+            minifiedSass: {
+                options: {
+                    style: 'compressed',
+                    precision: 4
+                },
+                files: {
+                    "./src/css/main.sass-minified.css": "./src/sass/main.scss"
+                }
+            },
+            uncompressedSass: {
+                options: {
+                    style: 'expanded',
+                    precision: 4
+                },
+                files: {
+                    "./src/css/main.sass.css": "./src/sass/main.scss"
+                }
+            }
+        },
         watch: {
             // runs less task when any less files change
             less: {
                 files: ["./src/less/*", "./src/demo/less/*"],
                 tasks: ["less"]
+            },
+            sass: {
+                files: ["./src/sass/*", "./src/demo/sass/*"],
+                tasks: ['sass']  
             }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('default', [
         'less',
+        'sass',
         'watch'
     ]);
 };
