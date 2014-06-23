@@ -21,11 +21,11 @@ body {
 }
 
 body, table, td,
-ul,
+ul, ol,
 h1, h2, h3, h4, p, img {
     margin: 0;
 }
-ul {
+ul, ol {
     padding-left: 0;
 }
 
@@ -35,4 +35,16 @@ a:link, a:visited {
 }
 a:hover {
     text-decoration: underline;
+}
+
+// displaying code: if it's a block of code nest it as <pre><code> and each
+// line will go full length with overflow-x scrolling.
+pre {
+    overflow: auto;
+}
+code {
+    white-space: pre-wrap;
+    pre > & {
+        white-space: pre;
+    }
 }
