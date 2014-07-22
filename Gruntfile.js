@@ -70,4 +70,7 @@ module.exports = function(grunt) {
     grunt.registerTask('server', [
         'watch'
     ]);
+    grunt.registerTask('test', [
+        'less'
+    ]);
 };

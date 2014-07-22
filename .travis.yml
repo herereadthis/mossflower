@@ -9,4 +9,4 @@ before_script:
   - gem install jekyll
   - bower install
 script:
-  - grunt
+  - grunt test
