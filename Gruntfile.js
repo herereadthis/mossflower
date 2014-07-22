@@ -65,7 +65,9 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', [
         'less',
-        'sass',
+        'sass'
+    ]);
+    grunt.registerTask('server', [
         'watch'
     ]);
 };

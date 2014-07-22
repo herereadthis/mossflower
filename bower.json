@@ -1,8 +1,11 @@
 {
   "name": "mossflower",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "authors": [
-    "Jimmy Ha <herereadthis@gmail.com>"
+    {
+      "name": "Jimmy Ha",
+      "homepage": "http://herereadthis.com"
+    }
   ],
   "description": "Global reset CSS utility for both LESS and SASS",
   "homepage": "http://herereadthis.com/code/mossflower",
@@ -15,6 +18,7 @@
     ".bowerrc",
     ".gitignore",
     ".sass-cache",
+    ".travis.yml",
     "docs",
     "Gruntfile.js",
     "node_modules",
