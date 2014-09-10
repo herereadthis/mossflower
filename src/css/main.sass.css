@@ -21,7 +21,8 @@ body {
 
 body, table, td,
 ul, ol,
-h1, h2, h3, h4, p, img {
+h1, h2, h3, h4, p, img,
+figure {
   margin: 0;
 }
 

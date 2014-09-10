@@ -31,7 +31,8 @@ h2,
 h3,
 h4,
 p,
-img {
+img,
+figure {
   margin: 0;
 }
 ul,
