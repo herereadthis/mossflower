@@ -10,8 +10,7 @@
   "description": "Global reset CSS utility for both LESS and SASS",
   "homepage": "http://herereadthis.com/code/mossflower",
   "main": [
-    "src/less/main.less",
-    "src/css/main.less-minified.css"
+    "src/less/main.less"
   ],
   "license": "MIT",
   "ignore": [
