@@ -1,6 +1,13 @@
 
 // The "wrapper" function
 module.exports = function(grunt) {
+
+    // Time how long tasks take. Can help when optimizing build times
+    require('time-grunt')(grunt);
+
+    // Load grunt tasks automatically
+    require('load-grunt-tasks')(grunt);
+
     // Do grunt-related things in here
     // Project configuration.
     grunt.initConfig({
@@ -10,20 +17,18 @@ module.exports = function(grunt) {
         less: {
             minifiedLess: {
                 options: {
-                    paths: ["./src/less", "./src/demo/less"],
                     cleancss: true
                 },
                 files: {
-                    "./src/css/main.less-minified.css": "./src/less/main.less"
+                    "./dist/css/main.less-minified.css": "./src/less/main.less"
                 }
             },
             uncompressedLess: {
                 options: {
-                    paths: ["./src/less", "./src/demo/less"],
                     cleancss: false
                 },
                 files: {
-                    "./src/css/main.less.css": "./src/less/main.less"
+                    "./dist/css/main.less.css": "./src/less/main.less"
                 }
             }
         },
@@ -34,7 +39,7 @@ module.exports = function(grunt) {
                     precision: 4
                 },
                 files: {
-                    "./src/css/main.sass-minified.css": "./src/sass/main.scss"
+                    "./dist/css/main.sass-minified.css": "./src/sass/main.scss"
                 }
             },
             uncompressedSass: {
@@ -43,7 +48,7 @@ module.exports = function(grunt) {
                     precision: 4
                 },
                 files: {
-                    "./src/css/main.sass.css": "./src/sass/main.scss"
+                    "./dist/css/main.sass.css": "./src/sass/main.scss"
                 }
             }
         },
@@ -59,9 +64,6 @@ module.exports = function(grunt) {
             }
         }
     });
-    grunt.loadNpmTasks('grunt-contrib-less');
-    grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('default', [
         'less',
