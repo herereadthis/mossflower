@@ -1,6 +1,6 @@
 {
   "name": "mossflower",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Mossflower is a global reset CSS utility for both LESS and SASS",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

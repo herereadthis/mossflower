@@ -45,5 +45,12 @@ $ git commit -m "adds Mossflower submodule"
 #### As LESS: Add to your imports
 
 ```CSS
-@import "/PATH_TO/../mossflower/src/less/main.less";
+@import "/PATH_TO/../mossflower/src/less/mossflower.less";
+```
+```
+
+#### As SASS: Add to your imports
+
+```CSS
+@import "/PATH_TO/../mossflower/src/sass/mossflower.scss";
 ```

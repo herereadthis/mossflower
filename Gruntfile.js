@@ -20,7 +20,7 @@ module.exports = function(grunt) {
                     cleancss: true
                 },
                 files: {
-                    "./dist/css/main.less-minified.css": "./src/less/main.less"
+                    "./dist/css/mossflower.less-minified.css": "./src/less/mossflower.less"
                 }
             },
             uncompressedLess: {
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
                     cleancss: false
                 },
                 files: {
-                    "./dist/css/main.less.css": "./src/less/main.less"
+                    "./dist/css/mossflower.less.css": "./src/less/mossflower.less"
                 }
             }
         },
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
                     precision: 4
                 },
                 files: {
-                    "./dist/css/main.sass-minified.css": "./src/sass/main.scss"
+                    "./dist/css/mossflower.sass-minified.css": "./src/sass/mossflower.scss"
                 }
             },
             uncompressedSass: {
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
                     precision: 4
                 },
                 files: {
-                    "./dist/css/main.sass.css": "./src/sass/main.scss"
+                    "./dist/css/mossflower.sass.css": "./src/sass/mossflower.scss"
                 }
             }
         },
