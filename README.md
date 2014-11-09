@@ -17,8 +17,8 @@ Mossflower is a global reset CSS utility for both LESS and SASS
 $ git clone https://github.com/herereadthis/mossflower.git
 $ cd mossflower/
 $ npm install
-$ bower install
-$ grunt
+$ npm run bower
+$ npm run grunt
 ```
 
 ## Setup
