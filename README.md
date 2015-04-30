@@ -10,6 +10,7 @@ Mossflower is a global reset CSS utility for both LESS and SASS
 * Both robust and bare-bones; you won't find yourself fighting against this utility
 * It is free to use and modify as you please.
 * Both **LESS** (.less) and **SASS** (.scss) versions are available.
+* It sets a single standard for sizing (REM) so you can do all sizing off 1REM = 10PX
 
 ## Build
 

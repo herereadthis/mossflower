@@ -1,6 +1,6 @@
 {
   "name": "mossflower",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Mossflower is a global reset CSS utility for both LESS and SASS",
   "scripts": {
     "grunt": "./node_modules/grunt-cli/bin/grunt",
