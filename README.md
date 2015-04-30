@@ -28,13 +28,13 @@ The Bellmaker assumes you have basic terminal skills and knowledge of Git. Addit
 
 ### CSS importing
 
-#### Recommended (A): Add the Bellmaker as a Bower dependency
+#### Recommended (A): Add Mossflower as a Bower dependency
 
 ```
 $ bower install --save mossflower
 ```
 
-#### Recommended (B): Add the Bellmaker as a package
+#### Recommended (B): Add Mossflower as a package
 
 ```
 $ npm install --save mossflower
