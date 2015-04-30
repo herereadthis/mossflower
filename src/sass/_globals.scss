@@ -1,5 +1,4 @@
-// eventually Mossflower will be its own repo as a global reset.
-
+// settings to reset html basically to control text sizing
 html {
     font-size: 62.5%;
     height: 100%;
@@ -9,6 +8,7 @@ html {
     overflow-x: hidden;
     overflow-y: scroll;
 }
+// it will default text sizing as 1REM = 10PX
 body {
     padding: 0;
     margin: 0;
@@ -30,7 +30,10 @@ ul, ol {
     padding-left: 0;
 }
 
-
+// links
+a {
+    background-color: transparent;
+}
 a:link, a:visited {
     text-decoration: none;
 }
@@ -38,10 +41,15 @@ a:hover {
     text-decoration: underline;
 }
 
+img {
+    border-width: 0;
+}
+
 // displaying code: if it's a block of code nest it as <pre><code> and each
 // line will go full length with overflow-x scrolling.
 pre {
     overflow: auto;
+    white-space: pre-wrap;
 }
 code {
     white-space: pre-wrap;
