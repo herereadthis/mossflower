@@ -22,10 +22,6 @@ $ npm run bower
 $ npm run grunt
 ```
 
-## Setup
-
-The Bellmaker assumes you have basic terminal skills and knowledge of Git. Additionally, you should be using Grunt.
-
 ### CSS importing
 
 #### Recommended (A): Add Mossflower as a Bower dependency
@@ -53,7 +49,6 @@ $ git commit -m "adds Mossflower submodule"
 
 ```CSS
 @import "/PATH_TO/../mossflower/src/less/mossflower.less";
-```
 ```
 
 #### As SASS: Add to your imports
