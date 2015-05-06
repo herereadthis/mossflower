@@ -12,7 +12,7 @@ Mossflower is a global reset CSS utility for both LESS and SASS
 * Both **LESS** (.less) and **SASS** (.scss) versions are available.
 * It sets a single standard for sizing (REM) so you can do all sizing off 1REM = 10PX
 
-## Build
+### Build
 
 ```
 $ git clone https://github.com/herereadthis/mossflower.git
@@ -24,19 +24,19 @@ $ npm run grunt
 
 ### CSS importing
 
-#### Recommended (A): Add Mossflower as a Bower dependency
+##### Recommended (A): Add Mossflower as a Bower dependency
 
 ```
 $ bower install --save mossflower
 ```
 
-#### Recommended (B): Add Mossflower as a package
+##### Recommended (B): Add Mossflower as a package
 
 ```
 $ npm install --save mossflower
 ```
 
-#### Alternative: Add Mossflower as a submodule
+##### Alternative: Add Mossflower as a submodule
 
 ```
 $ cd my_repo
@@ -45,13 +45,13 @@ $ git add mossflower .gitmodules
 $ git commit -m "adds Mossflower submodule"
 ```
 
-#### As LESS: Add to your imports
+##### As LESS: Add to your imports
 
 ```CSS
 @import "/PATH_TO/../mossflower/src/less/mossflower.less";
 ```
 
-#### As SASS: Add to your imports
+##### As SASS: Add to your imports
 
 ```CSS
 @import "/PATH_TO/../mossflower/src/sass/mossflower.scss";
