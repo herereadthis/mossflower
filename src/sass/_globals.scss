@@ -20,6 +20,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+// gives most block-level element a zero margin as a baseline
 body, table, td,
 ul, ol,
 h1, h2, h3, h4, p, img,
@@ -30,15 +31,23 @@ ul, ol {
     padding-left: 0;
 }
 
+// solves the cellspacing default styling on tables
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 // links
 a {
     background-color: transparent;
-}
-a:link, a:visited {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
+    // default is typically underlined for links, but nobody uses that styling
+    // anyway - saves you the extra effort
+    &:link, &:visited {
+        text-decoration: none;   
+    }
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 img {

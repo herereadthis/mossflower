@@ -56,3 +56,11 @@ $ git commit -m "adds Mossflower submodule"
 ```CSS
 @import "/PATH_TO/../mossflower/src/sass/mossflower.scss";
 ```
+
+### What about Normalize CSS?
+
+Mossflower was created as an alternative to Normalize because of several reasons:
+
+1. Normalize doesn't use a consistent font sizing setup. Sometimes things are defined by percentages, sometimes by EM units and sometimes by pixels. Mossflower just uses REM units.
+2. Normalize defines a lot of HTML elements that most developers won't be using anyway (such as the ```small```, ```figure```, and ```h1```) and you'll end up writing overrides for it - which defeats the purpose of having a global reset.
+3. Normalize also contains a lot of overrides to remove Mac/Apple styling on forms. It will probably confuse Mac users who notice their forms look different than what they're most accustomed to seeing.
