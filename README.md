@@ -4,6 +4,7 @@ Mossflower
 [![Bower version](https://badge.fury.io/bo/mossflower.svg)](http://badge.fury.io/bo/mossflower)
 [![Build Status](https://secure.travis-ci.org/herereadthis/mossflower.svg?branch=master)](http://travis-ci.org/herereadthis/mossflower)
 [![devDependency Status](https://david-dm.org/herereadthis/mossflower/dev-status.svg)](https://david-dm.org/herereadthis/mossflower#info=devDependencies)
+[![npm version](https://badge.fury.io/js/mossflower.svg)](http://badge.fury.io/js/mossflower)
 
 Mossflower is a global reset CSS utility for both LESS and SASS
 
