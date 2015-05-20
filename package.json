@@ -1,6 +1,6 @@
 {
   "name": "mossflower",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Mossflower is a global reset CSS utility for both LESS and SASS",
   "main": "src/less/mossflower.less",
   "scripts": {
