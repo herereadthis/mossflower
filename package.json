@@ -5,7 +5,8 @@
   "main": "src/less/mossflower.less",
   "scripts": {
     "grunt": "./node_modules/grunt-cli/bin/grunt",
-    "bower": "./node_modules/bower/bin/bower install"
+    "bower": "./node_modules/bower/bin/bower install",
+    "all": "npm install;./node_modules/bower/bin/bower install;./node_modules/grunt-cli/bin/grunt"
   },
   "repository": {
     "type": "git",
