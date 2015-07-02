@@ -25,16 +25,25 @@ $ npm run grunt
 
 ### CSS importing
 
-##### Recommended (A): Add Mossflower as a Bower dependency
-
-```
-$ bower install --save mossflower
-```
-
-##### Recommended (B): Add Mossflower as a package
+##### Recommended (A): Add Mossflower as an NPM package
 
 ```
 $ npm install --save mossflower
+```
+
+If you add Mossflower as an NPM package, then it will default to the `.less` version if you are using commonJS modules
+
+```javascript
+// ECMAScript 5
+require('mossflower');
+// ES6
+import 'mossflower';
+```
+
+##### Recommended (B): Add Mossflower as a Bower dependency
+
+```
+$ bower install --save mossflower
 ```
 
 ##### Alternative: Add Mossflower as a submodule

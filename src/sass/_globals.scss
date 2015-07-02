@@ -48,6 +48,11 @@ a {
     &:hover {
         text-decoration: underline;
     }
+    // typically text tags are given a defined color somewhere else, which will
+    // then be overridden if they are children of links
+    span {
+        color: inherit;
+    }
 }
 
 img {
